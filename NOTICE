@@ -1,0 +1,9 @@
+This project includes or depends on third-party software. Not an exhaustive list:
+
+- Traccar server API (REST / WebSocket) — used as a backend; Traccar is licensed under Apache License 2.0 (see upstream project).
+- Firebase (optional) — Google Firebase SDK for optional Firestore features; see https://firebase.google.com/terms
+- React, Vite, Radix UI, MapLibre, Lucide icons, and other npm dependencies — each under its respective license (see package metadata and node_modules).
+
+If you distribute this application, retain license and notice files for bundled dependencies as required by those licenses.
+
+The `traccar/` directory elsewhere in the TRACCAR_MODER workspace (if present) may follow different license terms (often AGPL-3.0 for upstream Traccar web UI). That tree is not covered by fleetly/LICENSE; see docs/LEGAL.md.

@@ -1,0 +1,7 @@
+node_modules
+dist
+lightsail-publish
+.firebase
+.env
+.env.local
+*.log
