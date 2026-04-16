@@ -136,6 +136,31 @@ export default function LoginPage() {
             Configure <code className="rounded bg-muted px-1">VITE_TRACCAR_URL</code> in{' '}
             <code className="rounded bg-muted px-1">.env.local</code> to point at your server.
           </p>
+
+          <div className="rounded-lg border border-border bg-muted/40 px-3 py-3 text-center text-xs text-muted-foreground">
+            <p className="font-medium text-foreground">Live demo</p>
+            <a
+              href="http://traccar.techdrizzle.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 inline-block text-primary underline"
+            >
+              traccar.techdrizzle.in
+            </a>
+            <p className="mt-2 text-[11px] leading-relaxed">
+              <span className="text-foreground/90">TechDrizzle 2026</span>
+              {' — '}
+              Contact{' '}
+              <a
+                href="mailto:sathasivam@techdrizzle.in"
+                className="text-primary underline"
+              >
+                sathasivam@techdrizzle.in
+              </a>
+              . For inquiries, reach out via the <strong className="font-medium text-foreground">chatbot interview</strong>{' '}
+              on the demo site.
+            </p>
+          </div>
         </form>
       </div>
     </div>
