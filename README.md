@@ -29,22 +29,5 @@ npm install
 npm run dev
 ```
 
-Dev server defaults to port **3001** and proxies `/api` to your Traccar URL.
-
-## Scripts
-
-| Command | Description |
-|--------|-------------|
-| `npm run dev` | Local dev server |
-| `npm run build` | Production build → `dist/` |
-| `npm run lint` | ESLint |
-
-## Docs
-
-- [Contributing](CONTRIBUTING.md)
-- [Publish to GitHub](docs/GITHUB.md)
-- [OSS / legal notes](OSS.md) · [Legal checklist](docs/LEGAL.md)
-
-## License
 
 MIT — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
